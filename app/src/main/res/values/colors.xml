@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blueanu">#03BECA</color>
+    <color name="backround_layer">#231E39</color>
+    <color name="abu">#98B1CB</color>
+</resources>

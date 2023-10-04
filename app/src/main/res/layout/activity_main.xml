@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#231E39"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#FEBB0B"
+        android:fontFamily="@font/outfitregular"
+        android:text="PRO"
+        android:textColor="@color/black"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:src="@drawable/naufal"
+        app:civ_border_color="#03BFCB"
+        app:civ_border_overlay="true"
+        app:civ_border_width="3dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:fontFamily="@font/outfitregular"
+        android:text="@string/miftahunnaufal"
+        android:textAlignment="center"
+        android:textColor="#98B1CB"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:fontFamily="@font/outfitregular"
+        android:text="@string/yogyakarta"
+        android:textColor="#98B1CB"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:fontFamily="@font/outfitregular"
+        android:text="Android Develoment, UI Designer, And Kotlin"
+        android:textAlignment="center"
+        android:textColor="#98B1CB"
+        android:textSize="18dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:backgroundTint="#03BFCB"
+            android:fontFamily="@font/outfitlight"
+            android:text="Message"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/backround_layer"
+            android:fontFamily="@font/outfitlight"
+            android:outlineProvider="none"
+            android:text="Following"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:strokeColor="@color/blueanu"
+            app:strokeWidth="2dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#1F1A36" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:fontFamily="@font/outfitmedium"
+        android:text="SKILS"
+        android:textColor="#98B1CB"
+        android:textSize="20dp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UI/UX Designer"
+                android:textSize="15dp"
+                android:textColor="@color/abu"
+                android:fontFamily="@font/outfitmedium"
+                android:backgroundTint="@color/backround_layer"
+                app:strokeColor="@color/abu"
+                app:strokeWidth="2dp"
+                android:layout_marginHorizontal="10dp">
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android Development"
+                android:textSize="15dp"
+                android:textColor="@color/abu"
+                android:fontFamily="@font/outfitmedium"
+                android:backgroundTint="@color/backround_layer"
+                app:strokeColor="@color/abu"
+                app:strokeWidth="2dp"
+                android:layout_marginHorizontal="10dp">
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kotlin Progamer"
+                android:textSize="15dp"
+                android:textColor="@color/abu"
+                android:fontFamily="@font/outfitmedium"
+                android:backgroundTint="@color/backround_layer"
+                app:strokeColor="@color/abu"
+                app:strokeWidth="2dp"
+                android:layout_marginHorizontal="10dp">
+            </Button>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HTML Progamer"
+                android:textSize="15dp"
+                android:textColor="@color/abu"
+                android:fontFamily="@font/outfitmedium"
+                android:backgroundTint="@color/backround_layer"
+                app:strokeColor="@color/abu"
+                app:strokeWidth="2dp"
+                android:layout_marginHorizontal="10dp">
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JavaScript Programer"
+                android:textSize="15dp"
+                android:textColor="@color/abu"
+                android:fontFamily="@font/outfitmedium"
+                android:backgroundTint="@color/backround_layer"
+                app:strokeColor="@color/abu"
+                app:strokeWidth="2dp"
+                android:layout_marginHorizontal="10dp">
+            </Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Word Press"
+                android:textSize="15dp"
+                android:textColor="@color/abu"
+                android:fontFamily="@font/outfitmedium"
+                android:backgroundTint="@color/backround_layer"
+                app:strokeColor="@color/abu"
+                app:strokeWidth="2dp"
+                android:layout_marginHorizontal="10dp">
+            </Button>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
