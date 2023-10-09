@@ -182,15 +182,14 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="JavaScript Programer"
-                android:textSize="15dp"
-                android:textColor="@color/abu"
-                android:fontFamily="@font/outfitmedium"
+                android:layout_marginHorizontal="10dp"
                 android:backgroundTint="@color/backround_layer"
+                android:fontFamily="@font/outfitmedium"
+                android:text="JavaScript Programer"
+                android:textColor="@color/abu"
+                android:textSize="15dp"
                 app:strokeColor="@color/abu"
-                app:strokeWidth="2dp"
-                android:layout_marginHorizontal="10dp">
-            </Button>
+                app:strokeWidth="2dp"></Button>
 
             <Button
                 android:layout_width="wrap_content"
