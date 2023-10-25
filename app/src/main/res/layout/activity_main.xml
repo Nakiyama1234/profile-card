@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#231E39"
+    android:background="@color/_231e39"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -53,7 +53,7 @@
         android:layout_gravity="center"
         android:layout_margin="3dp"
         android:fontFamily="@font/outfitregular"
-        android:text="Android Develoment, UI Designer, And Kotlin"
+        android:text="@string/android_develoment_ui_designer_and_kotlin"
         android:textAlignment="center"
         android:textColor="#98B1CB"
         android:textSize="15sp" />
@@ -117,8 +117,8 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="UI/UX Designer"
-                android:textSize="15dp"
+                android:text="@string/ui_ux_designer"
+                android:textSize="15sp"
                 android:textColor="@color/abu"
                 android:fontFamily="@font/outfitmedium"
                 android:backgroundTint="@color/backround_layer"
@@ -130,8 +130,8 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Android Development"
-                android:textSize="15dp"
+                android:text="@string/android_development"
+                android:textSize="15sp"
                 android:textColor="@color/abu"
                 android:fontFamily="@font/outfitmedium"
                 android:backgroundTint="@color/backround_layer"
@@ -143,8 +143,8 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Kotlin Progamer"
-                android:textSize="15dp"
+                android:text="@string/kotlin_progamer"
+                android:textSize="15sp"
                 android:textColor="@color/abu"
                 android:fontFamily="@font/outfitmedium"
                 android:backgroundTint="@color/backround_layer"
@@ -169,8 +169,8 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="HTML Progamer"
-                android:textSize="15dp"
+                android:text="@string/html_progamer"
+                android:textSize="15sp"
                 android:textColor="@color/abu"
                 android:fontFamily="@font/outfitmedium"
                 android:backgroundTint="@color/backround_layer"
@@ -185,17 +185,18 @@
                 android:layout_marginHorizontal="10dp"
                 android:backgroundTint="@color/backround_layer"
                 android:fontFamily="@font/outfitmedium"
-                android:text="JavaScript Programer"
+                android:text="@string/javascript_programer"
                 android:textColor="@color/abu"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 app:strokeColor="@color/abu"
-                app:strokeWidth="2dp"></Button>
+                app:strokeWidth="2dp">
+            </Button>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Word Press"
-                android:textSize="15dp"
+                android:text="@string/word_press"
+                android:textSize="15sp"
                 android:textColor="@color/abu"
                 android:fontFamily="@font/outfitmedium"
                 android:backgroundTint="@color/backround_layer"
@@ -205,6 +206,14 @@
             </Button>
 
         </LinearLayout>
+
     </HorizontalScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:src="@drawable/naufal"
+        android:layout_gravity="right"/>
 
 </LinearLayout>

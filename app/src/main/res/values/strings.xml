@@ -5,4 +5,11 @@
     <string name="pro">PRO</string>
     <string name="message">Message</string>
     <string name="following">Following</string>
+    <string name="android_develoment_ui_designer_and_kotlin">Android Develoment, UI Designer, And Kotlin</string>
+    <string name="html_progamer">HTML Progamer</string>
+    <string name="word_press">Word Press</string>
+    <string name="android_development">Android Development</string>
+    <string name="kotlin_progamer">Kotlin Progamer</string>
+    <string name="javascript_programer">JavaScript Programer</string>
+    <string name="ui_ux_designer">UI/UX Designer</string>
 </resources>
